@@ -12,7 +12,7 @@ Required Dependencies and Drivers
 
 ### NVIDIA-SMI 570
 
-[Following this NVIDIA documentation](https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/index.html#ubuntu-installation) we get a series of commands. 
+[Following this NVIDIA documentation](https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/index.html#ubuntu-installation) we get a series of commands: 
 
 For an Ubuntu 24.04 VM with Trusted Launch (secure boot) disabled, "distro" is "ubuntu2404," and "arch" is "x86_64." The table detailing these values is found at the top of the NVIDIA documentation. An example is for network installations, the following command:
 `wget https://developer.download.nvidia.com/compute/cuda/repos/$distro/$arch/cuda-keyring_1.1-1_all.deb`
